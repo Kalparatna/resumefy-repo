@@ -1,0 +1,148 @@
+.resumeContainer {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh;
+    padding: 8px;
+    background: #f0f0f0;
+}
+.resume {
+    display: flex;
+    flex-direction: column;
+    width: 210mm;
+    height: 297mm; /* A4 size */
+    background: white;
+    padding: 15px 25px;
+    font-size: 11px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-left: 20px; /* Shift content to the left */
+    align-self: flex-start;
+}
+
+.header {
+    text-align: left; /* Align text to the left */
+    margin-bottom: 4px;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+}
+
+.title {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Contact Details */
+.socialsGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+    text-align: left;
+    margin-bottom: 2px;
+    font-size: 11px;
+}
+
+.socialsGrid a {
+    color: #0073b1;
+    text-decoration: none;
+}
+
+/* Sections */
+.section {
+    margin-top: 5px;
+    page-break-inside: avoid;
+    text-align: left;
+}
+
+.sectionTitle {
+    background-color: #6ec1e4;
+    color: black;
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: left;
+}
+
+/* Summary */
+.section p {
+    font-size: 11px;
+    color: black;
+    line-height: 1.4;
+    text-align: left;
+}
+
+/* Education Table */
+.educationTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 3px;
+    text-align: left;
+}
+
+.educationTable th,
+.educationTable td {
+    border: 1px solid black;
+    padding: 2px;
+    font-size: 11px;
+    text-align: left;
+}
+
+.educationTable th {
+    font-weight: bold;
+    background: #e6f7ff;
+}
+
+/* Work Experience */
+.workItem {
+    margin-top: 2px;
+    text-align: left;
+}
+
+.workItem p {
+    margin: 1px 0;
+    font-size: 11px;
+    color: black;
+    text-align: left;
+}
+
+/* Projects */
+.projectItem {
+    margin-top: 2px;
+    text-align: left;
+}
+
+.projectItem ul {
+    padding-left: 12px;
+    margin: 0;
+    text-align: left;
+}
+
+.projectItem ul li {
+    font-size: 11px;
+    text-align: left;
+}
+
+/* Achievements & Others */
+.section ul {
+    list-style-type: disc;
+    padding-left: 12px;
+    font-size: 11px;
+    color: black;
+    text-align: left;
+}
+
+/* Page Breaks for Printing */
+@media print {
+    .resume {
+        page-break-before: always;
+    }
+}
+

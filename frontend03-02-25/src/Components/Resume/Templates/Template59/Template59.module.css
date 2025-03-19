@@ -1,0 +1,152 @@
+/* ===== Resume Container ===== */
+.resumeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background: #f8f9fa;
+}
+
+/* ===== Resume Layout ===== */
+.resume {
+    display: flex;
+    flex-direction: column;
+    width: 210mm;
+    height: auto; /* Adjust height dynamically */
+    background: white;
+    padding: 20px;
+    font-size: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    overflow: hidden;
+    align-items: center; /* Align content to the left */
+}
+
+/* ===== Header Section (Still Centered) ===== */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #000000; /* Changed to black */
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.name {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+.title {
+    font-size: 14px;
+    color: #555;
+    margin-top: 4px;
+}
+
+/* ===== Contact Details (Aligned Left) ===== */
+.socialsGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    font-size: 12px;
+    margin-bottom: 15px;
+    width: 100%;
+    padding-left: 150px;
+    text-align: left; /* Ensure left alignment */
+}
+
+.socialsGrid a {
+    color: #000000; /* Changed to black */
+    text-decoration: none;
+}
+
+/* ===== Section Styling (Aligned Left) ===== */
+.section {
+    margin-top: 15px;
+    padding-bottom: 10px;
+    text-align: left; /* Force left alignment */
+    width: 100%;
+}
+
+.sectionTitle {
+    background: #000000; /* Changed to black */
+    color: white;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: left; /* Ensure left alignment */
+}
+
+/* ===== Content Styling (Aligned Left) ===== */
+.section p {
+    font-size: 12px;
+    color: #333;
+    line-height: 1.5;
+    text-align: left;
+}
+
+/* ===== Education Table (Aligned Left) ===== */
+.educationTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 5px;
+}
+
+.educationTable th,
+.educationTable td {
+    border: 1px solid #ddd;
+    padding: 6px;
+    font-size: 12px;
+    text-align: left;
+}
+
+.educationTable th {
+    font-weight: bold;
+    background: #f0f0f0;
+}
+
+/* ===== Work Experience (Aligned Left) ===== */
+.workItem {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.workItem p {
+    margin: 2px 0;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* ===== Projects (Aligned Left) ===== */
+.projectItem {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.projectItem ul {
+    padding-left: 18px;
+    margin: 0;
+}
+
+.projectItem ul li {
+    font-size: 12px;
+}
+
+/* ===== Achievements & Others (Aligned Left) ===== */
+.section ul {
+    list-style-type: disc;
+    padding-left: 18px;
+    font-size: 12px;
+    color: #333;
+    text-align: left;
+}
+
+/* ===== Print Styling ===== */
+@media print {
+    .resume {
+        page-break-before: always;
+    }
+}
