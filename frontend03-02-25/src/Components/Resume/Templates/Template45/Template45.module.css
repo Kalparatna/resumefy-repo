@@ -1,0 +1,260 @@
+/* .resumeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #eaeaea;
+  }
+  
+  .resume {
+    width: 210mm;
+    height: 297mm;
+    background: white;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  .contactInfo {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    font-size: 14px;
+    margin: 12px 0;
+    flex-wrap: wrap;
+  }
+  
+  .contactInfo a {
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: bold;
+  }
+  
+  .contactInfo span {
+    white-space: nowrap;
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .position {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .divider {
+    width: 100%;
+    margin: 8px auto;
+    border: 1px solid #333;
+  }
+  
+  .mainContent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22px;
+  }
+  
+  .leftColumn {
+    width: 48%;
+    padding-right: 22px;
+  }
+  
+  .rightColumn {
+    width: 48%;
+    padding-left: 22px;
+  }
+  
+  .rightColumn section p,
+  .leftColumn section p {
+    text-align: justify;
+  }
+  
+  section {
+    margin-bottom: 18px;
+  }
+  
+  section h2 {
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    border-bottom: 2px solid #222;
+    padding-bottom: 4px;
+  }
+  
+  ul {
+    padding-left: 10px;
+  }
+  
+  .skillsSection {
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+  }
+  
+  .skillList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+    padding-left: 0;
+    font-weight: bold;
+    list-style-type: none;
+  }
+  
+  .skillList li {
+    background: #444;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-align: center;
+  }
+  
+  .bottomSection {
+    margin-top: 20px;
+  }
+  
+  .projectItem {
+    padding: 12px;
+    margin-top: 12px;
+    border-left: 4px solid #0056b3;
+    border-radius: 6px;
+    background: #f9f9f9;
+  }
+  
+  .projectItem h4 {
+    margin: 0;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+  .projectItem p {
+    font-size: 14px;
+    margin: 6px 0;
+  }
+  
+  .projectItem a {
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: bold;
+  }
+  
+  .projectItem a:hover {
+    text-decoration: underline;
+  }
+   */
+
+
+   .resumeContainer {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background: #f4f4f4;
+  }
+  
+  .resume {
+    background: #fff;
+    width: 100%;
+    max-width: 1200px;
+    padding: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .contact span {
+    display: block;
+    margin: 5px 0;
+    color: #444;
+  }
+  
+  .contact a {
+    color: #0077b5;
+    text-decoration: none;
+  }
+  
+  .divider {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 20px 0;
+  }
+  
+  .mainContent {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .leftColumn, .rightColumn {
+    width: 50%;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  .section h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .section ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  .section li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+  
+  .job h3 {
+    font-size: 1.2rem;
+    color: #0077b5;
+  }
+  
+  .job p {
+    color: #555;
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .job ul {
+    list-style: circle;
+    margin-left: 20px;
+  }
+  
+  .job li {
+    margin-bottom: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .mainContent {
+      flex-direction: column;
+    }
+  
+    .leftColumn, .rightColumn {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,151 @@
+/* Resume Container */
+.resumeContainer {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 40px;
+  background: linear-gradient(135deg, #f5f5f5, #ffffff); /* Soft gradient */
+  box-shadow: 0 0 10px #ccc;
+  border-radius: 8px;
+}
+
+/* Header Section */
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 42px;
+  color: #333;
+}
+
+.title {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.summary {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Contact Section */
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 16px;
+  color: #444;
+  flex-wrap: wrap;
+}
+
+.contact span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.contact a {
+  color: #0077b5;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* Section Styles */
+.section {
+  margin-bottom: 40px;
+}
+
+.section h2 {
+  font-size: 26px;
+  color: #222;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+/* Work History and Education */
+.job, .education, .certificate {
+  margin-bottom: 20px;
+}
+
+.job h3, .education h3 {
+  font-size: 20px;
+  color: #444;
+  margin: 0;
+}
+
+.job p, .education p, .certificate p {
+  font-size: 16px;
+  color: #666;
+}
+
+.job span, .education span, .certificate span {
+  display: block;
+  font-size: 14px;
+  color: #999;
+  margin-top: 5px;
+}
+
+/* List Styling */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #f0f0f0;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+ul li:hover {
+  background: #e0e0e0;
+}
+
+/* Skills and Languages */
+.skills, .languages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills li, .languages li {
+  background: #0077b5;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+.skills li:hover, .languages li:hover {
+  background: #005a8d;
+}
+
+/* Certificate Section */
+.certificate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Links */
+a {
+  color: #0077b5;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
