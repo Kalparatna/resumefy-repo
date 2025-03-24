@@ -1,0 +1,271 @@
+/* Container for the resume */
+.resumeContainer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f4f7f9;
+    min-height: 100vh;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  /* Resume Layout */
+  .resume {
+    width: 100%;
+    max-width: 900px;
+    height: 297mm;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header Section */
+  .header {
+    text-align: center;
+    margin-bottom: -10px;
+  }
+  
+  .header .name {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-align:left;
+  }
+  
+  .header .title {
+    font-size: 1.5rem;
+    color: #777;
+    text-align: left;
+  }
+  
+  .contactInfo {
+    margin-top: -10px;
+    font-size: 0.95rem;
+    color: #444;
+    text-align: left;
+  }
+  
+  .contactInfo a {
+    color: #3b82f6;
+    text-decoration: none;
+  }
+  
+  .contactInfo a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Content Layout */
+  .mainContent {
+    margin-top: 40px;
+  }
+  
+  /* Section styling */
+  section {
+   
+    border-bottom: #fff;
+  }
+  .summary{
+    margin-bottom: -10px;
+  }
+  .summaryParagraph{
+    text-align: left;
+  }
+  h2 {
+    font-size: 1.3rem;
+    color: #2d3748;
+    margin-bottom: 10px;
+  }
+  
+  /* Work Experience Section */
+  .experience{
+    margin-bottom: 10px;
+  }
+  .experienceItem {
+    margin-bottom: 1px;
+  }
+  
+  .experienceContent {
+    font-size: 1rem;
+    color: #444;
+  }
+  
+  .experienceHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .experienceHeader strong {
+    font-weight: 600;
+  }
+  
+  .experienceDate {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .experienceCompanyLocation {
+    margin-top: -5px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .experienceCompanyLocation p {
+    margin: 5px 0;
+  }
+  
+  .experiencePoints {
+    padding-left: 15px;
+  }
+  
+  .experiencePoints li {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1px;
+    text-align: left;
+  }
+  
+  
+  /* Education Section */
+  .education{
+    margin-bottom: 10px;
+  }
+  .educationItem {
+    margin-bottom: 20px;
+  }
+  
+  .educationContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: -15px;
+  }
+  
+  .educationTitleCollege {
+    font-size: 1rem;
+    color: #555;
+    text-align: left;
+  }
+  
+  .educationDate {
+    font-size: 1rem;
+    color: #777;
+    text-align: right;
+  }
+  
+  
+  /* Skill List */
+  .skillsSection{
+    margin-bottom: -10px;
+  }
+  .skillList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-left: 0;
+    margin-top: 10px;
+  }
+  
+  .skillList p {
+    font-size: 1rem;
+    color: #555;
+    padding: 5px 10px;
+    background-color: #e2e8f0;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+    max-width: 150px;
+    text-align: center;
+    
+  }
+  .projectSection{
+    margin-bottom: 10px;
+  }
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  .projectHeader {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: -10px;
+  }
+  
+  .projectTitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    flex-grow: 1;
+    text-align: left;
+  }
+  
+  .projectLink {
+    font-size: 1rem;
+    color: #3b82f6;
+  }
+  
+  .projectLink a {
+    color: #3b82f6;
+    text-decoration: none;
+  }
+  
+  .projectLink a:hover {
+    text-decoration: underline;
+  }
+  
+  .projectLink strong {
+    margin-right: 0px;
+  
+  }
+  
+  /* Project Description Styling */
+  .projectDescription {
+    list-style-type: none;
+    padding-left: 15px;
+    margin-top: 0px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .projectDescription li {
+    list-style-type: disc;
+    margin-bottom: 1px;
+    text-align: left;
+  }
+  
+  .achievements{
+    margin-bottom: -10px;
+  }
+  .achievementsList {
+    text-align: left;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .header .name {
+      font-size: 2.5rem;
+    }
+  
+    .header .title {
+      font-size: 1.2rem;
+    }
+  
+    h2 {
+      font-size: 1.1rem;
+    }
+  
+    section {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .contactInfo {
+      font-size: 0.85rem;
+    }
+  }
