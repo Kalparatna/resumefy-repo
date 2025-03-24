@@ -299,6 +299,22 @@ const templates = [
     columns: 2,
   },
   {
+    id: 50,
+    title: "Template 50",
+    image:
+      "https://res.cloudinary.com/dhgswebwz/image/upload/v1742838942/uploads/qufxzhw6otsz3pwsmwow.png",
+    withPhoto: false,
+    columns: 2,
+  },
+  {
+    id: 51,
+    title: "Template 51",
+    image:
+      "https://res.cloudinary.com/dhgswebwz/image/upload/v1742839413/uploads/wmtp5kgtxib9dtj8emte.png",
+    withPhoto: false,
+    columns: 2,
+  },
+  {
     id: 58,
     title: "Template 58",
     image:
